@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0a0c1c;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Inter";
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  width: 100%;
+  max-width: 1110px;
+}
+.wrapper .container .mobile_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+.wrapper .container .information {
+  padding: 71px 0 59px 72px;
+  background: #1b1937;
+  width: 100%;
+  max-width: 540px;
+  min-height: 446px;
+  border-radius: 12px 0 0 12px;
+  color: #fff;
+}
+.wrapper .container .information .info h1 {
+  font-size: 36px;
+  width: 403px;
+  height: 88px;
+  line-height: 44px;
+}
+.wrapper .container .information .info h1 span {
+  color: #c84ee0;
+}
+.wrapper .container .information .info .text {
+  color: #fff;
+  opacity: 0.75;
+  font-size: 15px;
+  padding: 25px 0 0 0;
+  max-width: 374px;
+  line-height: 25px;
+}
+.wrapper .container .information .info .footer {
+  padding: 72px 0 0 0;
+  gap: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .container .information .info .footer .companies {
+  width: 83px;
+}
+.wrapper .container .information .info .footer .companies h3 {
+  line-height: 30px;
+  font-size: 24px;
+  width: 59px;
+}
+.wrapper .container .information .info .footer .companies h3:hover {
+  cursor: pointer;
+}
+.wrapper .container .information .info .footer .companies p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.75;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 12px;
+  width: 82px;
+}
+.wrapper .container .information .info .footer .companies p:hover {
+  cursor: pointer;
+}
+.wrapper .container .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    padding: 45px 0;
+  }
+  .wrapper .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 327px;
+    display: grid;
+  }
+  .wrapper .container .mobile_img {
+    margin: 0 auto;
+    display: inline;
+    width: 327px;
+    height: 240px;
+  }
+  .wrapper .container .information {
+    padding: 40px 30px;
+    border-radius: 0 0 12px 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrapper .container .information .info h1 {
+    width: 264px;
+    height: 98px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .wrapper .container .information .info .text {
+    line-height: 16px;
+    padding: 16px 0 0 0;
+    font-weight: 400;
+    text-align: center;
+    width: 264px;
+    height: 100px;
+  }
+  .wrapper .container .information .info .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 24px;
+    padding: 40px 0 0 0;
+  }
+  .wrapper .container .information .info .footer .companies h3 {
+    text-align: center;
+  }
+  .wrapper .container .img {
+    border-radius: 0;
+    display: none;
+  }
+}
