@@ -51,12 +51,13 @@ body {
           color: #fff;
           opacity: 0.75;
           font-size: 15px;
-          padding: 25px 0 0 0;
+          // padding: 25px 0 0 0;
+          margin-top: 25px;
           max-width: 374px;
           line-height: 25px;
         }
         .footer {
-          padding: 72px 0 0 0;
+          margin-top: 72px;
           gap: 63px;
           display: flex;
           .companies {
@@ -91,8 +92,6 @@ body {
       justify-content: center;
       align-items: center;
       border-radius: 12px;
-      //   width: 100%;
-      //   min-width: 540px;
     }
   }
 }
@@ -127,7 +126,7 @@ body {
           .text {
             font-size: 15px;
             line-height: 20px;
-            padding: 16px 0 0 0;
+            margin-top: 16px;
             font-weight: 400;
             text-align: center;
             width: 264px;
@@ -140,7 +139,7 @@ body {
             align-items: center;
             flex-direction: column;
             gap: 24px;
-            padding: 40px 0 0 0;
+            margin-top: 40px;
             .companies {
               h3 {
                 text-align: center;
